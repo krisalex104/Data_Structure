@@ -1,3 +1,5 @@
+package backtracking;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,7 +32,7 @@ public class SmartKeyPad {
 
 
     public static void main(String[] args) {
-     String digits="234";
+     String digits="56";
         List<String> letterCombinations = letterCombinations(digits);
         System.out.println(letterCombinations);
     }

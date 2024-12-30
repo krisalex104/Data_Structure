@@ -1,3 +1,5 @@
+package backtracking;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,7 +48,7 @@ public class PalindromePartition {
 
 
     public static void main(String[] args) {
-        String s= "aab";
+        String s= "abbaca";
         List<List<String>> partition = partition(s);
         for(List<String> list : partition){
             System.out.println(list);

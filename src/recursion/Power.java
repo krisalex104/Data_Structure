@@ -22,7 +22,7 @@ public class Power {
         int power = power(3, 4);
         System.out.println(power);
 
-        int fastPower = fastPower(2, 10);
+        int fastPower = fastPower(7, 7);
         System.out.println(fastPower);
     }
 }
